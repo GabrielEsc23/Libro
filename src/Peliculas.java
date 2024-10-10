@@ -26,5 +26,19 @@ public class Peliculas {
             return this.duracion + 10; // Añade 10 minutos por anuncios
         }
     }
+    //getters
+    public String titulo(){
+        return this.titulo();
+    }
+    public String director(){
+        return this.director();
+    }
+    public String genero(){
+        return this.genero();
+    }
+    public int duracion(){
+        return this.duracion();
+
+    }
 
 }

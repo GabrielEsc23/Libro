@@ -24,4 +24,6 @@ public class Libro {
     public int imprimirCubierta() {
         return this.paginas + 5;
     }
+    //getters
+    public String titulo;
 }
